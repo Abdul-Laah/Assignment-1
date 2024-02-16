@@ -1,0 +1,3 @@
+const nameWithSpaces = '\tEric\n';
+console.log(nameWithSpaces); // displays the name with spaces
+console.log(nameWithSpaces.trim()); // displays the name without spaces

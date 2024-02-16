@@ -1,0 +1,5 @@
+const personName = 'Eric';
+
+console.log(personName.toLowerCase()); // eric
+console.log(personName.toUpperCase()); // ERIC
+console.log(personName[0].toUpperCase() + personName.slice(1).toLowerCase()); // Eric
